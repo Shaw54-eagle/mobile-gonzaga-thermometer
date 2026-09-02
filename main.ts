@@ -17,7 +17,7 @@ input.onButtonPressed(Button.B, function () {
         # . . . .
         . # # # .
         . # . . .
-        . . # # .
+        . # # # .
         . # . . .
         `)
     basic.showNumber(Math.convert(input.temperature(), UnitConversion.CelsiusToFahrenheit))
@@ -29,7 +29,7 @@ loops.everyInterval(3600000, function () {
         # . . . .
         . # # # .
         . # . . .
-        . . # # .
+        . # # # .
         . # . . .
         `)
     basic.showNumber(Math.convert(input.temperature(), UnitConversion.CelsiusToFahrenheit))
